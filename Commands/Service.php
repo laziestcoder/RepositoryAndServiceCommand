@@ -287,7 +287,7 @@ use App\\'.$this->repository_directory.'\\'.$repository.';
 
 class '.$service.' extends AbstractCrudService
 {
-    private $roomServiceRepository;
+    private $'.$repositoryMember.';
 
     public function __construct('.$repository.' $'.$repositoryMember.')
     {

@@ -33,7 +33,7 @@ class Repository extends GeneratorCommand
      *
      * @var string
      */
-    protected $description = 'Create a repository class {repository: repository name} {model: model name} {--s|service: service name}';
+    protected $description = 'Create a repository class {repository: repository name} {model: model name} {--s|service=: service name}';
 
     /**
      * Create a new command instance.
