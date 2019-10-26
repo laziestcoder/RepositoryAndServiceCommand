@@ -41,7 +41,7 @@ Edit the config file. Remember All the directories are under `app` directory.
   'model_directory' => 'Models', #app/Models
   'service_directory' => 'Services', #app/Models
 ```
-
+### Structure
 > Core File Structure:
 
 ```
@@ -97,11 +97,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-##Inspired By: 
+## Inspired By: 
 
-***
-[Mohammad Imran Hossain](https://github.com/imranctg16). 
-***
+##### [Mohammad Imran Hossain](https://github.com/imranctg16).
 
 Very much grateful to @imranctg16 :+1:
 
