@@ -4,7 +4,7 @@
 Download the repository and extract it.
 
 ## Installation
-####Step 1: 
+###Step 1: 
 Copy ```app/Console/Commands``` directory to your project ```app/Console/``` directory.
 ```$xslt
 |-- app/Console/Commands
@@ -12,7 +12,7 @@ Copy ```app/Console/Commands``` directory to your project ```app/Console/``` dir
     |-- Service.php (core file)
 ```
 
-####Step 2:
+###Step 2:
 Copy ```config/repository.php``` file to your project ```config/``` directory.
 
 ```$xslt
@@ -20,7 +20,7 @@ Copy ```config/repository.php``` file to your project ```config/``` directory.
     |-- repository.php (core confid file)
 ```
 
-####Step 3:
+###Step 3:
 Add following commands to your ```app/Console/Kernel.php``` file. 
 ```$xslt
 protected $commands = [
@@ -28,7 +28,7 @@ protected $commands = [
         Commands\Service::class,
     ];
 ```
-####Step 4:
+###Step 4:
 Edit the config file. Remember All the directories are under `app` directory.
 ```$xslt
   'repository_directory' => 'Repositories',  ## app/Repositories
@@ -46,13 +46,13 @@ Edit the config file. Remember All the directories are under `app` directory.
 ```
 
 ## Usage
-####Make Repository: 
+###Make Repository: 
 The following command makes a repository class ```TestRepositoryName``` using model 
 ```TestModelName```.
 ```bash
 php artisan make:repository TestRepositoryName TestModelName
 ```
-####Make Repository with Service: 
+###Make Repository with Service: 
 The following command makes a repository class ```TestRepositoryName``` using model 
 ```TestModelName``` and a service ```TestServiceName```.
 ```bash
@@ -65,7 +65,7 @@ php artisan make:repository TestRepositoryName TestModelName --s=TestServiceName
 
 Service flag ```--service``` or ```--s``` is optional.
 
-####Make Service: 
+###Make Service: 
 The following command makes a service class ```TestServiceName``` using repository 
 ```TestRepositoryName```.
 
@@ -79,7 +79,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 ##Inspired By: 
-##### [Mohammad Imran Hossain](https://github.com/imranctg16).
+### [Mohammad Imran Hossain](https://github.com/imranctg16).
 
 Very much grateful to @imranctg16.
 ## License
