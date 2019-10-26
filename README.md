@@ -8,7 +8,7 @@ Download the repository and extract it.
 
 **Step 1:** 
 
-Copy ```app/Console/Commands``` directory to your project ```app/Console/``` directory.
+Copy ```Commands``` directory to your project ```app/Console/``` directory.
 ```$xslt
 |-- app/Console/Commands
     |-- Repository.php (core file)
@@ -20,6 +20,8 @@ Copy ```app/Console/Commands``` directory to your project ```app/Console/``` dir
 Copy ```config/repository.php``` file to your project ```config/``` directory.
 
 ```$xslt
+|-- app
+...
 |-- config
     |-- repository.php (core confid file)
 ```
