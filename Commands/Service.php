@@ -292,7 +292,7 @@ class '.$service.' extends AbstractCrudService
     public function __construct('.$repository.' $'.$repositoryMember.')
     {
         $this->'.$repositoryMember.' = $'.$repositoryMember.';
-        $this->setActionRepository($'.$repositoryMember.');
+        $this->setActionRepository( $this->$'.$repositoryMember.');
     }
 }
 
