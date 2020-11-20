@@ -1,7 +1,7 @@
 <?php
 return [
-    'repository_directory' => 'Repositories',  ## app/TestRepositories
-    'model_directory' => 'Models', #app/Models
-    'service_directory' => 'Services', #app/Models
+    'repository_directory' => 'Repositories',  # app/Repositories
+    'model_directory' => 'Models', # app/Models
+    'service_directory' => 'Services', # app/Services
 ];
 
